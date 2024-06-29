@@ -4,3 +4,9 @@ members = [
     "libcst",
     "libcst_derive",
 ]
+
+
+[patch.crates-io]
+## Version Pins
+chic = { git = "https://github.com/elide-tools/chic.git", rev = "a69a935636126d8d758e3952484347ee4cdcee62" }
+
